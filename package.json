@@ -1,0 +1,23 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "simple unix timestamp api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anders462/timestampapp.git"
+  },
+  "author": "Anders Bengtsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anders462/timestampapp/issues"
+  },
+  "homepage": "https://github.com/anders462/timestampapp#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
