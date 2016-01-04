@@ -19,5 +19,8 @@
   "homepage": "https://github.com/anders462/timestampapp#readme",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.2.3"
   }
 }
