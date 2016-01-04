@@ -1,0 +1,21 @@
+{
+  "name": "timestamp",
+  "description": "simple unix timestamp api",
+  "main": "server.js",
+  "authors": [
+    "Anders Bengtsson"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/anders462/timestampapp",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
