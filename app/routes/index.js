@@ -9,13 +9,13 @@ module.exports = function(app) {
   });
 
 //route for all api calls
-  app.get('/*', function(req,res) {
-    timeStamp(req.url, function(err,time){
+  app.get('/:query', function(req,res) {
+    timeStamp(req, function(err,time){
       if (!err){
       res.send(time);
     } else {
       res.send("Error: " + err);
     }
-    });
+  });
   });
 };

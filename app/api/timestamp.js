@@ -1,7 +1,8 @@
 
 module.exports = function (req, callBack) {
 var monthMap = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-var q = req.slice(1).replace(/\%20/g," ");
+//var q = req.slice(1).replace(/\%20/g," ");
+var q = req.params.query;
 var time = {unix: null, natural: null};
 var d;
 
