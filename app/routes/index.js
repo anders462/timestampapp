@@ -1,5 +1,5 @@
 'use strict'
-var unixConv = require(process.cwd() + '/app/api/unixConv.js');
+var timeStamp = require(process.cwd() + '/app/api/timestamp.js');
 
 module.exports = function(app) {
 
@@ -10,7 +10,7 @@ module.exports = function(app) {
 
 //route for all api calls
   app.get('/*', function(req,res) {
-    unixConv(req.url, function(err,time){
+    timeStamp(req.url, function(err,time){
       if (!err){
       res.send(time);
     } else {
