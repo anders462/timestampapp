@@ -1,5 +1,5 @@
 'use strict'
-var unixConv = require('./app/api/unixConv.js');
+var unixConv = require(process.cwd() + '/app/api/unixConv.js');
 
 module.exports = function(app) {
 

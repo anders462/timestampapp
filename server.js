@@ -1,6 +1,6 @@
 'use strict';
 var express = require('express');
-var routes = require('./app/routes/index.js');
+var routes = require(process.cwd() + '/app/routes/index.js');
 //var unixConv = require('./app/api/unixConv.js');
 //Create app
 var app = express();
