@@ -5,7 +5,7 @@ module.exports = function(app) {
 
 //main route to serve index.html
   app.get('/', function(req,res){
-      res.send("index.html");
+      res.sendFile(process.cwd() + '/public/index.html');
   });
 
 //route for all api calls
